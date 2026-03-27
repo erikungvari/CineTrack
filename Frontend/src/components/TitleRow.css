@@ -1,0 +1,28 @@
+.title-row {
+  margin-bottom: 36px;
+}
+
+.title-row-scroll {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  padding: 8px 0 12px;
+  scroll-behavior: smooth;
+}
+
+.title-row-scroll::-webkit-scrollbar {
+  height: 4px;
+}
+
+.title-row-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.title-row-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 2px;
+}
+
+.title-row-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
